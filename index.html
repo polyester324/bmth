@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<meta name="keywords" content="рок, слушающие рок, слушать рок, рок группы, рок музыка, рок онлайн, рок лучшее, рок 2021, зарубежный рок, хард рок, хард рок группы, хард рок зарубежный, музыка хард рок, хард рок онлайн, метал рок, зарубежный метал рок, метал рок группы, bmth, bmth  песни, bmth концерт, bring me the horizon" ></meta>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>BMTH</title>
+</head>
+<body>
+	<header class="header">
+		<div  class="conth">
+			<table>
+				<tr><td><a class="hidden_link"  href="#">График концертов</a></tr></td>
+				<tr><td><a class="hidden_link" href="#">Живые выступления</a></tr></td>
+			</table>
+			<img class="menuh" src="images/menu.png" onclick="unmenu()">
+		</div>
+		<div class="inner_header">
+			<a href="#"><img class="logo" src="images/bmthl.png"></a>
+			<span class="logo_text">BMTH</span>
+			<nav class="nav">
+				<a class="nav_link"  href="#">График концертов</a>
+				<a class="nav_link" href="#">Живые выступления</a>
+			</nav>
+			<img class="menu" src="images/menu.png" onclick="menu()">
+		</div>
+	</header>
+	<div><img class="bmth_img" src="images/bmth.png"></div>
+	<div class="container">
+		<div class="images">
+			<img class="img" src="images/bmth1.png">
+		</div>
+		<div class="1text">
+			<h2>BMTH-</h2>
+			<span class="text">  британская рок-группа из Шеффилда, Йоркшира, основанная в 2004 году. В настоящее время состоит из вокалиста Оливера Сайкса, гитариста Ли Малии, басиста Мэтта Кина, барабанщика Мэтта Николлса и клавишника Джордана Фиша.
+			 На протяжении карьеры участники старались экспериментировать со звучанием: ранние релизы имели более тяжёлый звук и были классифицированы как дэткор и металкор.</span>
+		</div>
+		<div class="sidebar">
+			<p class="sidebar_text">Логотип одного из самых популярных альбомов BMTH, Sempiternal, включает в себя множество значений, о которых мало кто знает. Форма состоит из множества переплетенных кругов, образующих большой шестиугольник, что символизирует вечную жизнь или вечную любовь. </p>
+			<img class="sidebar_img" src="images/semp.png">
+		</div>
+		<div class="images">
+		<img class="img" src="images/bmth2.png">
+		</div>
+		<div class="1text">
+			<h2>История</h2>
+			<span class="text"> Группа была создана в 2004 году участниками распавшихся групп из их района: они получили своё название, взяв за основу фразу из фильма Пираты Карибского моря, которую произнёс капитан Джек Воробей: «Now bring me that horizon». В сентябре 2004 года вышел дебютный релиз группы — мини-альбом «This Is What the Edge of Your Seat Was Made For».Причём, для этого пришлось создать собственный лейбл — Thirty Days of Night Records.</span>
+		</div>
+		<div class="sidebar">
+			<p class="sidebar_text">Оливер Сайк, вокалист и создатель BMTH, начал свою музыкальную карьеру в  конце 2000 года, будучи школьником. Он начал создавать CD и короткие треки под именем Quakebeat.</p>
+			<img class="sidebar_img" src="images/Oliver.png">
+		</div>
+		<div class="images">
+			<img class="img" src="images/bmth3.png">
+		</div>
+		<div class="3text">
+			<h2>Post Human: Survival Horror</h2>
+			<span class="text">Как заявил солист группы, альбом был выпущен с целью помочь людям справляться с пандемией COVID-19. Альбом считается в культуре играющим значительную роль в укреплении зарождающегося движения возрождения ню-метала конца 2010-х годов на сцене альтернативной музыки и включает в себя все музыкальные направления, в которых группа развивалась последние 10 лет.</span>
+		</div>
+		<div class="sidebar">
+			<p class="sidebar_text"><q>Хотите знать, что самое смешное в людях, которые называют таких как я сатанистами? Они верят в сатану, а я нет.</q><cite>Оливер Сайкс</cite></p>
+		</div>
+    </div>
+    <footer >
+ 		<div class="footer">	
+ 			<span class="f_text1">Больше о группе можно узнать:</span>
+ 			<div class="nav_foot"><a href="https://www.instagram.com/bringmethehorizon/?hl=ru"><img class="f_logo" src="images/ins.png"></a><a href="https://twitter.com/bmthofficial?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img class="f_logo" src="images/tw.png"></a><a href="https://www.youtube.com/channel/UCAayZDDj3uom0QpSJiwLoUw"><img class="f_logo" src="images/vk.png"></a><a href="https://ru-ru.facebook.com/bmthofficial"><img class="f_logo" src="images/fc.png"></a></div>
+ 		</div>		
+ 		<div class="footer">	
+ 			<span class="f_text2">Copyright &#xa9; 2021</span>
+ 		</div>	
+    </footer>
+    <a href="#" title="Вернуться к началу" class="button">^Наверх</a>
+
+    <script>
+    	function menu(){
+    	document.getElementsByClassName('conth')[0].style.display = "flex";
+    	}
+    	function unmenu(){
+    	document.getElementsByClassName('conth')[0].style.display = "none";
+    	}
+    </script>
+</body>
+</html>
